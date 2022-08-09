@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Calculadora</title>
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!--Título calculadora-->
+        <div class="topo">
+            <p>Calculadora</p>
+        </div>
+        <!--Exibidor das operações e resultados-->
+        <div class="exibidor">
+            <input type="text" name="operations" id="operações">
+            <input type="text" name="result" class="resultados">
+        </div>
+        <!--Botões-->
+        <table>
+            <tr>
+                <td>
+                    <button class="operadores">C</button>
+                </td>
+                <td>
+                    <button class="operadores">%</button>
+                </td>
+                <td>
+                    <button class="operadores">÷</button>
+                </td>
+                <td>
+                    <button class="operadores">X</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button class="valores">7</button>
+                </td>
+                <td>
+                    <button class="valores">8</button>
+                </td>
+                <td>
+                    <button class="valores">9</button>
+                </td>
+                <td>
+                    <button class="operadores">-</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button class="valores">4</button>
+                </td>
+                <td>
+                    <button class="valores">5</button>
+                </td>
+                <td>
+                    <button class="valores">6</button>
+                </td>
+                <td>
+                    <button class="operadores">+</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button class="valores">1</button>
+                </td>
+                <td>
+                    <button class="valores">2</button>
+                </td>
+                <td>
+                    <button class="valores">3</button>
+                </td>
+                <td rowspan="2">
+                    <button class="igual">=</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button class="valores" style="border-radius: 0 0 0 10px;">0</button>
+                </td>
+                <td>
+                    <button class="valores">.</button>
+                </td>
+                <td>
+                    <button class="valores"><img width="20" src="img/backspace1.png" alt=""></button>
+                </td>
+            </tr>
+        </table>
+       
+    </div>
+</body>
+</html>
